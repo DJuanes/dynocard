@@ -22,7 +22,7 @@ Cada región de Azure está emparejada con otra región dentro de la misma geogr
 
 IoT Hub soporta conmutación por error manual en regiones geo-emparejadas:
 
-| **S.NO**  | **Geografia**         | **Regiones emparejadas**
+|           | **Geografia**         | **Regiones emparejadas**
 | ------    | -------------         | ---------------------------------------| 
 |1          | North America         | East US 2         -     Central US     | 
 |2          | North America         | Central US         -   East US 2       | 
