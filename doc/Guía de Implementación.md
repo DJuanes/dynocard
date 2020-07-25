@@ -8,7 +8,7 @@
 
 
 ## 1 Guía de Implementación
-Este documento explica cómo implementar la solución oil & gas utilizando una plantilla ARM. En este documento se explican dos formas de implementar la solución:
+Este documento explica cómo implementar la solución dynocard oil & gas utilizando una plantilla ARM. En este documento se explican dos formas de implementar la solución:
 
 -Usando Azure portal
 
