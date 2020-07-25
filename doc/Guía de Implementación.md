@@ -99,7 +99,7 @@ Resource Manager proporciona una capa de administración coherente para realizar
 
 3. Seleccione **Raw** desde la esquina superior derecha:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/6.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/6.png)
 
 4. **Copy** la plantilla y **paste** en su portal azure para implementación de plantilla:
 
