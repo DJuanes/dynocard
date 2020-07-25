@@ -467,7 +467,7 @@ Según el diagrama anterior, la conexión esclava es 52.186.11.164 y está inten
 
 Ahora la dirección IP de la conexión esclava se actualiza con la nueva dirección IP.
 
-## 6  Configuración de Machine Learning
+## 6 Configuración de Machine Learning
 
 Azure Machine Learning es una solución integral de analitica avanzada y ciencia de datos. Permite a los científicos de datos preparar datos, desarrollar experimentos e implementar modelos a escala de nube. El documento repasa los siguientes temas:
 
