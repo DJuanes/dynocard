@@ -1,7 +1,7 @@
 ![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/oil%26gas-deployment.png)
 
 
-
+[[File:Pumpjack 0154.jpg|Pumpjack 0154]]
 [TOC]
 
 
