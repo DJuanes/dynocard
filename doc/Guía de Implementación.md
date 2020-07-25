@@ -123,9 +123,9 @@ Para implementar una plantilla para Azure Resource Manager, siga los pasos a con
 
 ![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/10.png)
 
-6.  La página **Custom deployment** se muestra como en la siguiente figura: 
+6.  La página **Implementación personalizada** se muestra como en la siguiente figura: 
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/11.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/11.png)
 
 ### 4.1.1 Inputs
 Estos valores de parámetros le permiten personalizar la implementación. Sus parámetros permiten elegir el tipo de solución, la región y las credenciales para autenticar la base de datos SQL y las máquinas virtuales.
@@ -134,13 +134,13 @@ Estos valores de parámetros le permiten personalizar la implementación. Sus pa
 
 8.  Si elige **No** entonces el **Edge VM + Simulator VM** no serán implementados con la solución. Tiene que implementar manualmente los módulos IoT Edge en Edge VM. Para obtener más información, consulte la sección 5.3 Realizar la operación de dispositivo doble en Edge VM.
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/12.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/12.png)
 
 9.  Si elige **yes** para **ML VM** entonces el **docker** pre-instalado será implementado con la solución.
 
 10. Si elige **No** para **ML VM** entonces el **docker** pre-instalado no será implementado con la solución.
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/13.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/13.png)
 
 **Parametros para la Solución Basica**
 
