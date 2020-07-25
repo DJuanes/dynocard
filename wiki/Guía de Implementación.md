@@ -2,7 +2,6 @@
 
 ![Oil & Gas - Guía de Implementación](https://github.com/DJuanes/dynocard/blob/master/1024px-Pumpjack_0154.jpg "Michael C. Rygel / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)")
 
-![Oil & Gas - Guía de Implementación](https://github.com/DJuanes/dynocard/blob/master/Pumpjack_0154.jpg "Michael C. Rygel / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)")
 
 
 
