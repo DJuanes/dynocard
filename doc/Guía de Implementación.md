@@ -101,27 +101,27 @@ Resource Manager proporciona una capa de administración coherente para realizar
 
 ![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/6.png)
 
-4. **Copy** la plantilla y **paste** en su portal azure para implementación de plantilla:
+4. Copie y pegue la plantilla en su portal azure para implementación de plantilla:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/7.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/7.png)
 
 Para implementar una plantilla para Azure Resource Manager, siga los pasos a continuación:
 
-1.  Vaya a **Azure portal**.
+1.  Vaya a **Azure portal** (https://portal.azure.com).
 
-2.  Navegue hasta **Create a resource (+)**, busque **Template deployment**.
+2.  Haga clic en **Crear un recurso (+)**, y busque **Template deployment**.
 
-3.  Haga clic en el botón **Create** y luego en **Build your own Template in the editor** como se muestra en la siguiente figura:
+3.  Haga clic en el botón **Crear** y luego en **Cree su propia plantilla en el editor** como se muestra en la siguiente figura:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/8.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/8.png)
 
-4.  La página **Edit template** se muestra como en la siguiente figura: 
+4.  La página **Editar plantilla** se muestra como en la siguiente figura: 
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/9.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/9.png)
 
-5.  **Replace / paste** la plantilla y haga clic en el botón **Save**:
+5.  Reemplace la plantilla con la que copió en el punto 4 y haga clic en el botón **Guardar**:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/10.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/10.png)
 
 6.  La página **Custom deployment** se muestra como en la siguiente figura: 
 
