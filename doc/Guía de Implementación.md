@@ -77,8 +77,8 @@ En la sección de parámetros de la plantilla, especifique qué valores puede in
 
 ## 4 Inicio
 
-Azure Resource Manager le permite aprovisionar sus aplicaciones mediante una plantilla declarativa. En una sola plantilla, puede implementar múltiples servicios junto con sus dependencias. La plantilla consta de JSON y expresiones que puede usar para construir valores para su implementación. Utiliza la misma plantilla para implementar repetidamente tu aplicación durante cada etapa del ciclo de vida de la aplicación.
-Resource Manager proporciona una capa de administración coherente para realizar tareas a través de Azure PowerShell, CLI de Azure, Azure Portal, API REST y SDK de cliente.
+Azure Resource Manager le permite aprovisionar sus aplicaciones mediante una plantilla declarativa. En una sola plantilla, puede implementar múltiples servicios junto con sus dependencias. La plantilla consta de JSON y expresiones que puede usar para construir valores para su implementación. Utilice la misma plantilla para implementar repetidamente la solución durante cada etapa del ciclo de vida de la aplicación.
+Resource Manager proporciona una capa de administración coherente para realizar tareas a través de Azure PowerShell, Azure CLI, Azure Portal, API REST y SDK de cliente.
 
 *   Implemente, administre y monitoree todos los recursos para su solución como grupo, en lugar de manejar estos recursos individualmente.
 * Implemente repetidamente su solución durante todo el ciclo de vida de desarrollo y tenga confianza en que sus recursos se implementarán en un estado coherente.
