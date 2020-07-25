@@ -3,7 +3,37 @@
 
 
 
-[TOC]
+**Tabla de Contenidos** 
+
+- [1 Guía de Implementación](#1-guía-de-implementación)
+- [2 ¿Qué son las regiones emparejadas?](#2--qué-son-las-regiones-emparejadas)
+- [3 Parámetros de Entrada de la Plantilla ARM](3-parámetros-de-entrada-de-la-plantilla-arm)
+- [4 Inicio](4-inicio)
+    - [4.1 Implementación de Plantillas ARM con Azure Portal](#41--implementación-de-plantillas-arm-con-azure-portal)
+        - [4.1.1 Inputs](#411-inputs)
+        - [4.1.2 Outputs](#412-outputs)
+    - [4.2 Implementación de Plantillas ARM usando Azure CLI](#42-implementación-de-plantillas-arm-usando-azure-cli)
+- [5 Pasos Posteriores a la Implementación](#5-pasos-posteriores-a-la-implementación)
+    - [5.1 Verificar Contenedores en EdgeVM y en Azure Portal](#51-verificar-contenedores-en-edgevm-y-en-azure-portal)
+    - [5.2 Actualizar la clave principal del dispositivo IoT Hub en Web API Application Settings](#52-actualizar-la-clave-principal-del-dispositivo-iot-hub-en-web-api-application-settings)
+    - [5.3 Perform Device Twin Operation on Edge VM [Optional]](#53-realizar-la-operación-de-dispositivos-gemelos-en-edge-vm-opcional)
+- [6 Configuración de Machine Learning](#6-configuración-de-machine-learning)
+    - [6.1 Agregar usuario actual al grupo de usuarios de Docker](#61-agregar-usuario-actual-al-grupo-de-usuarios-de-docker)
+    - [6.2 Instalar ML Workbench](#62-instalar-ml-workbench)
+    - [6.3 Inicio de sesión en Azure Portal](#63-inicio-de-sesión-en-azure-portal)
+    - [6.4 Lista de Componentes de Entorno](#64-lista-de-componentes-de-entorno)
+    - [6.5 Crear proyecto ML](#65-crear-proyecto-ml)
+    - [6.6 Descargar Repositorio Git](#66-descargar-repositorio-git)
+    - [6.7 Enviar experimento train4dc.py como destino local](#67-enviar-experimento-train4dcpy-como-destino-local)
+    - [6.8 Instalar azureml.datacollector](#68-instalar-azuremldatacollector)
+    - [6.9 Enviar experimento score4dc.py con destino local](#69-enviar-experimento-score4dcpy-con-destino-local)
+    - [6.10 Establecer cuenta Model Management](#610-establecer-cuenta-model-management)
+    - [6.11 Configuración de la Implementación](#611-configuración-de-la-implementación)
+    - [6.12 Registrar proveedores](#612-registrar-proveedores)
+    - [6.13 Ejecutar experimento como destino Docker](#613-ejecutar-experimento-como-destino-docker)
+    - [6.14 Implementar Web Service](#614-implementar-web-service)
+    - [6.15 Probar Web Service](#615-probar-web-service)
+
 
 
 
