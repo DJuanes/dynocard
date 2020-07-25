@@ -1,7 +1,8 @@
 ![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/oil%26gas-deployment.png)
 
 
-[[File:Pumpjack 0154.jpg|Pumpjack 0154]]
+<a title="Michael C. Rygel / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" href="https://commons.wikimedia.org/wiki/File:Pumpjack_0154.jpg"><img width="512" alt="Pumpjack 0154" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pumpjack_0154.jpg/512px-Pumpjack_0154.jpg"></a>
+
 [TOC]
 
 
