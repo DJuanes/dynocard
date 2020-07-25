@@ -91,11 +91,11 @@ Resource Manager proporciona una capa de administración coherente para realizar
 
 1.  Haga clic en la siguiente URL de repo **Git hub**:
 
-**https://github.com/DJuanes/iot-edge-dynocard/tree/master**
+**https://github.com/DJuanes/dynocard/tree/master/plantillas**
 
 2. Seleccione **main-template.json** del branch **master** como se muestra en la siguiente figura:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/5.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/5.png)
 
 3. Seleccione **Raw** desde la esquina superior derecha:
 
