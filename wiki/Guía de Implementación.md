@@ -1,6 +1,6 @@
 ![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/oil%26gas-deployment.png)
 
-![alt text](https://github.com/DJuanes/dynocard/blob/master/Pumpjack_0154.jpg)
+![Michael C. Rygel / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)](https://github.com/DJuanes/dynocard/blob/master/Pumpjack_0154.jpg)
 
 
 
