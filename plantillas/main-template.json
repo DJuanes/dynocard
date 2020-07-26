@@ -4,36 +4,36 @@
     "parameters": {
         "solution type": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "Basic",
             "allowedValues": [
                 "Basic",
                 "Standard",
                 "Premium"
             ],
             "metadata": {
-                "description": "Choose the solution deployment type from the drop down, for more information about the solution deployment type navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Elija el tipo de implementación de la solución en el menú desplegable"
             }
         },
         "Edge VM + Simulator VM": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "No",
             "allowedValues": [
                 "Yes",
                 "No"
             ],
             "metadata": {
-                "description": "Choose Yes/No to add Modbus VM as part of Solution deployment, for more information about the Modbus VM navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Elija Yes/No para agregar Modbus VM como parte de la implementación de la solución"
             }
         },
         "MLVM": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "No",
             "allowedValues": [
                 "Yes",
                 "No"
             ],
             "metadata": {
-                "description": "Choose Yes/No to add ML VM as part of Solution deployment, for more information about the ML VM navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Elija Yes/No para agregar ML VM como parte de la implementación de la solución"
             }
         },
         "dataLakelocation": {
@@ -46,7 +46,7 @@
                 "westeurope"
             ],
             "metadata": {
-                "description": "Choose location for Data Lake Store, for more information about the Data Lake Store navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Elija la ubicación de Data Lake Store"
             }
         },
         "machineLearningLocation": {
@@ -60,34 +60,34 @@
                 "westeurope"
             ],
             "metadata": {
-                "description": "Choose location for machine learning account, for more information about the machine learning location navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Elija la ubicación para la cuenta machine learning"
             }
         },
         "geo-paired-primary-region": {
             "type": "string",
-            "defaultValue": "EastUS2",
+            "defaultValue": "eastus2",
             "allowedValues": [
-                "EastUS2",
-                "CentralUS",
-                "WestUS2",
-                "WestCentralUS",
-                "CanadaCentral",
-                "CanadaEast",
-                "AustraliaEast",
-                "AustraliaSouthEast",
-                "CentralIndia",
-                "SouthIndia",
-                "EastAsia",
-                "SouthEastAsia",
-                "JapanWest",
-                "JapanEast",
-                "KoreaCentral",
-                "KoreaSouth",
-                "UKSouth",
-                "UKWest"
+                "eastus2",
+                "centralus",
+                "westus2",
+                "westcentralus",
+                "canadacentral",
+                "canadaeast",
+                "australiaeast",
+                "australiasoutheast",
+                "centralindia",
+                "southindia",
+                "eastasia",
+                "southeastasia",
+                "japanwest",
+                "japaneast",
+                "koreacentral",
+                "koreasouth",
+                "uksouth",
+                "ukwest"
             ],
             "metadata": {
-                "description": "Choose geo-paired region,if you have selected standard (or) premium option in the solution type inputparameter, for more information about the geo-paired-region navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Elija la región geo-emparejada si ha seleccionado la opción estándar o premium en el parámetro de entrada del tipo de solución"
             }
         },
         "oms-region": {
@@ -104,7 +104,7 @@
                 "westeurope"
             ],
             "metadata": {
-                "description": "Choose location for OMS Log Analytics, for more information about the oms-region navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Elija la ubicación para OMS Log Analytics"
             }
         },
         "appInsightsLocation": {
@@ -119,98 +119,98 @@
                 "westus2"
             ],
             "metadata": {
-                "description": "specify the region for application insights, for more information about the appInsightsLocation navigate to https://github.com/nvtuluva/iot-edge-dynocard/wiki/Deployment-Guide in wiki"
+                "description": "Especifique la región para application insights"
             }
         },
         "sqlAdministratorLogin": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "sqluser",
             "metadata": {
-                "description": "provide the user name for the SQL server, please make a note of Username this will be used further"
+                "description": "Proporcione el nombre de usuario para el servidor SQL, tome nota del nombre de usuario, se utilizará más adelante."
             }
         },
         "sqlAdministratorLoginPassword": {
             "type": "securestring",
-            "defaultValue": "",
+            "defaultValue": "Password@1234",
             "metadata": {
-                "description": "provide the password for the SQL server, make a note of the Password this will be used further"
+                "description": "Proporcione la contraseña para el servidor SQL, tome nota de la contraseña, se utilizará más adelante."
             }
         },
         "azureLogin": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "user@domain.com",
             "metadata": {
-                "description": "Please provide Azure portal login username. This will be used to authenticate data lake store account in stream analytics outputs section."
+                "description": "Proporcione el nombre de usuario de inicio de sesión del portal Azure. Esto será útil para autenticar la cuenta del data lake store en la sección de salida de stream analytics."
             }
         },
         "azurePassword": {
             "type": "securestring",
-            "defaultValue": "",
+            "defaultValue": "Contraseña",
             "metadata": {
-                "description": "Please provide Azure portal login password"
+                "description": "Proporcione la contraseña de inicio de sesión del portal Azure. Esto será útil para configurar los módulos en el dispositivo iotedge a través del script iot-edge.sh."
             }
         },
         "tenantId": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "xxxxxxxx-xxxx-xxxx-xxxx-c5e6exxxcd38",
             "metadata": {
-                "description": "Please provide Tenant Id of the subscription. This will be used to authenticate data lake store account in stream analytics outputs section"
+                "description": "Identificación del inquilino para la suscripción. Esto será útil para autenticar la cuenta del data lake store en la sección de salida de stream analytics."
             }
         },
         "vmsUsername": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "adminuser",
             "metadata": {
-                "description": "Please provide VM's login Username.This Username will be used for Edge VM,Simulator VM and MachineLearning VM in further"
+                "description": "Nombre de usuario para iniciar sesión en Modbus VM y Edge VM. Tome nota del nombre de usuario, esto se utilizará más adelante."
             }
         },
         "vmsPassword": {
             "type": "securestring",
-            "defaultValue": "",
+            "defaultValue": "Password@1234",
             "metadata": {
-                "description": "Please provide VM's login password, This Username will be used for Edge VM,Simulator VM and MachineLearning VM in further"
+                "description": "Proporcione la contraseña de inicio de sesión de VM, tome nota de la contraseña, esto se utilizará más adelante."
             }
         },
         "webAppBuildfileUrl": {
             "type": "string",
-            "defaultValue": "https://github.com/nvtuluva/iot-edge-dynocard/raw/master/builds/DynoCardAPI_with_appinsights.zip",
+            "defaultValue": "https://github.com/DJuanes/dynocard/raw/master/builds/DynoCardAPI_with_appinsights.zip",
             "metadata": {
-                "description": "Please provide WebAppPublished zip file url, This will be used to upload into the web application"
+                "description": "Proporcione la URL del archivo zip WebAppPublished. Esto se utilizará para cargar en la aplicación web."
             }
         },
         "storageUri": {
             "type":"string",
-            "defaultValue":"https://projectiot.blob.core.windows.net/oilgas-iot/db4cards.bacpac",
+            "defaultValue":"https://github.com/DJuanes/dynocard/raw/master/builds/db4cards.bacpac",
             "metadata":{
-                "description":"Please provide Storage Blob url, This will be used to import it into the sql db"
+                "description":"Proporcione la URL del Blob Storage, esto se usará para importarlo a la base de datos sql."
             }
         },
         "plcsimulatorv1": {
             "type": "string",
-            "defaultValue": "https://projectiot.blob.core.windows.net/oilgas-iot/ModbusSimulator/SimSetup.msi",
+            "defaultValue": "https://github.com/DJuanes/dynocard/raw/master/builds/SimSetup.msi",
             "metadata": {
-                "description": "Please Provide the Storage Url of plc simulator,This will be used in dynocard vm extension"
+                "description": "Proporcione la URL de almacenamiento del simulador plc, esto se utilizará en la extensión vm de dynocard."
             }
         },
         "vcredist": {
             "type": "string",
-            "defaultValue": "https://projectiot.blob.core.windows.net/oilgas-iot/ModbusSimulator/vcredist_x86.exe",
+            "defaultValue": "https://github.com/DJuanes/dynocard/raw/master/builds/vcredist_x86.exe",
             "metadata": {
-                "description": "Please Provide the Storage Url of vcredist,This will be used in dynocard vm extension"
+                "description": "Proporcione la URL de almacenamiento de vcredist, esto se usará en la extensión vm de dynocard."
             }
         },
         "plcsimulatorv2": {
             "type": "string",
-            "defaultValue": "https://projectiot.blob.core.windows.net/oilgas-iot/ModbusSimulator/ModRSsim2.exe",
+            "defaultValue": "https://github.com/DJuanes/dynocard/raw/master/builds/ModRSsim2.exe",
             "metadata": {
-                "description": "Please Provide the Storage Url of plc simulator 2,This will be used in dynocard vm extension"
+                "description": "Proporcione la URL de almacenamiento del simulador 2 plc, esto se usará en la extensión vm de dynocard."
             }
         },
         "deviceName":{
             "type":"string",
-            "defaultValue": "",
+            "defaultValue": "nombre de su dispositivo",
             "metadata":{
-                "description": "Please provide the IoTHub Edge device name that you want create"
+                "description": "Proporcione el nombre del dispositivo IoT Edge"
             }
         }
         
@@ -315,7 +315,7 @@
             "location": "[parameters('geo-paired-primary-region')]",
             "storageAccountType": "Standard_LRS",
             "deviceId": "[parameters('deviceName')]",
-            "functionPackageURI": "https://github.com/nvtuluva/iot-edge-dynocard/raw/master/builds/HttpTriggerNode.zip"
+            "functionPackageURI": "https://github.com/DJuanes/dynocard/raw/master/builds/HttpTriggerNode.zip"
         },
         "edgeVmSettings": {
             "location": "[parameters('geo-paired-primary-region')]",
@@ -397,7 +397,7 @@
             "modelManagementAccountSkuTier": "DEVTEST",
             "rgname": "[resourceGroup().name]"
         },
-        "baseUrl": "https://raw.githubusercontent.com/nvtuluva/iot-edge-dynocard/master/",
+        "baseUrl": "https://github.com/DJuanes/dynocard/raw/master/",
         "suffix": "[substring(uniqueString(resourceGroup().id), 0, 5)]",
         "serviceBusNamespaceName": "[concat('snamespace',variables('suffix'))]",
         "serviceBusNamespaceNameDr": "[concat('snamespacedr',variables('suffix'))]",

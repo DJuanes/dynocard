@@ -18,7 +18,7 @@
             "value": "eastus2"
         },
         "geo-paired-primary-region":{
-            "value": "EastUS2"
+            "value": "eastus2"
         },
         "oms-region": {
             "value": "eastus"
