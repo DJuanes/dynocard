@@ -139,7 +139,7 @@ Para implementar una plantilla para Azure Resource Manager, siga los pasos a con
 
 1.  Vaya a **Azure portal** (https://portal.azure.com).
 
-2.  Haga clic en **Crear un recurso (+)**, y busque **Template deployment**.
+2.  Haga clic en **Crear un recurso (+)**, y busque **Template deployment** (Implementación de plantillas).
 
 3.  Haga clic en el botón **Crear** y luego en **Cree su propia plantilla en el editor** como se muestra en la siguiente figura:
 
@@ -176,24 +176,24 @@ Estos valores de parámetros le permiten personalizar la implementación. Sus pa
 
 11. Implemente la plantilla proporcionando los parámetros en la configuración de implementación personalizada como se muestra en la siguiente figura:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/parameters-basic11.png)
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/parameters12.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/parameters-basic11.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/parameters12.png)
 
 **Parametros para la Solución Estándard**
 
 12. Si desea implementar el núcleo con monitoreo, debe ingresar los siguientes parámetros:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/parameters-standard11.png)
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/parameters12.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/parameters-standard11.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/parameters12.png)
 
 **Parametros para la Solución Premium**
 
-13. Si desea implementar el núcleo con seguridad aumentada y monitoreo, debe ingresar los siguientes parámetros:
+13. Si desea implementar el núcleo con seguridad reforzada y monitoreo, debe ingresar los siguientes parámetros:
 
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/parameters-premium11.png)
-![alt text](https://github.com/DJuanes/iot-edge-dynocard/blob/master/images/parameters12.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/parameters-premium11.png)
+![alt text](https://github.com/DJuanes/dynocard/blob/master/imagenes/parameters12.png)
 
-14. Una vez que se hayan ingresado todos los parámetros, seleccione la casilla de verificación **terms and conditions** y haga clic en **Purchase**.
+14. Una vez que se hayan ingresado todos los parámetros, seleccione la casilla de verificación **TÉRMINOS Y CONDICIONES** y haga clic en **Adquirir**.
 
 15. Después de la implementación exitosa de la plantilla ARM, los siguientes recursos son creados en un **Resource Group**.
 
